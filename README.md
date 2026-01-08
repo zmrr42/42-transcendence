@@ -2,11 +2,11 @@
 
 A comprehensive multiplayer gaming platform built with modern web technologies, featuring real-time games, user management, chat system, and matchmaking capabilities.
 
-## 🎮 Overview
+## Overview
 
 Transcendence is a full-stack web application that provides a complete gaming experience with multiple classic games (Pong and Snake), user authentication, real-time chat, and intelligent matchmaking. The project demonstrates advanced software architecture principles using microservices, WebSocket communication, and containerized deployment.
 
-## 🏗️ Architecture
+## Architecture
 
 The project follows a microservices architecture with the following components:
 
@@ -86,7 +86,7 @@ The project follows a microservices architecture with the following components:
   - Temporary data caching
   - Pub/Sub for real-time features
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -143,7 +143,7 @@ JWT_ACCESS_TOKEN_LIFETIME=5
 JWT_REFRESH_TOKEN_LIFETIME=1
 ```
 
-## 🎯 Features
+## Features
 
 ### User Management
 - **Registration**: Email-based user registration
@@ -207,7 +207,7 @@ docker-compose exec chat_server python manage.py test
 docker-compose exec matchmaking_server python manage.py test
 ```
 
-## 📊 Monitoring
+## Monitoring
 
 ### Health Checks
 - All services include health check endpoints
@@ -219,7 +219,7 @@ docker-compose exec matchmaking_server python manage.py test
 - Database connection pooling
 - Static file optimization
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -238,7 +238,7 @@ docker-compose logs [service_name]
 docker-compose logs -f [service_name]
 ```
 
-## 🔗 Related Projects
+## Related Projects
 
 - **42-minishell**: Unix shell implementation
 - **42-webserv**: HTTP server implementation
